@@ -34,7 +34,7 @@ const Navigate = useNavigate();
         </div>
         <div className="w-full grid grid-cols-auto gap-4 gap-y-6 ">
           {filterDoc.map((doctor, index) => (
-            <div
+            <div 
               onClick={() => Navigate(`/appointment/${doctor._id}`)}
               key={index}
               className="border border-blue-600 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px]  translate-all  duration-500"

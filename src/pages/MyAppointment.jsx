@@ -1,8 +1,7 @@
 
 const MyAppointment = () => {
-  return (
-    <div>MyAppointment</div>
-  )
-}
+  
+  return <div>MyAppointment</div>;
+};
 
-export default MyAppointment
+export default MyAppointment;
